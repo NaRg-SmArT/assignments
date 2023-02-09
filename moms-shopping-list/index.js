@@ -23,7 +23,7 @@ const food = document.createElement("div")
 food.textContent = listItem
 addLi.append(food, edit, deleteBtn)
 
-document.getElementById("list").append(addLi)
+document.getElementById("list").prepend(addLi)
 
 
 
